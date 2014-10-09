@@ -1,0 +1,179 @@
+@charset "utf-8";
+body, html {padding: 0; margin: 0;}
+/** magic header **/
+.magic-header{overflow:visible;position: fixed;z-index: 100;top:0;width: 100%;font-family: "Microsoft YaHei";}
+.magic-header .magic-header-drawer .drawer-inner{
+    background: url("drawer_bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+}
+
+/* tooltip */
+.magic-header .magic-header-drawer .tip{
+    position: absolute;
+    min-width: 200px;
+    margin-left: 408px;
+    margin-top: 13px;
+    font-size: 12px;
+}
+.magic-header .magic-header-drawer .tip4clause{
+    margin-top: -23px;
+}
+.magic-header .magic-header-drawer .tip_arrow{
+    float: left;
+    margin-left: -5px;
+    margin-top: 7px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 5px solid #000;
+    border-bottom: 5px solid transparent;
+}
+.magic-header .magic-header-drawer .tip_content{
+    float: left;
+    color: #fff;
+    background: #000;
+    border-radius: 4px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    min-width: 20px;
+    vertical-align: middle;
+    padding: 2px 5px 2px 5px;
+    font-size: inherit;
+}
+.magic-header .magic-header-drawer .input_bound_tip{float: left;}
+
+/* drawer style */
+.magic-header  .magic-header-drawer{
+    background:#333;
+    overflow:hidden;
+    box-shadow:0 1px 2px rgba(0, 0, 0, 0.25), 0 1px 0 rgba(255, 255, 255, 0.15) inset;
+}
+.magic-header .magic-header-drawer .drawer-panel{color: #fff;}
+.magic-header .magic-header-drawer .toolbar{width: 900px;margin-left: auto;margin-right: auto;}
+.magic-header .magic-header-drawer .header_menu{float: left;}
+.magic-header .magic-header-drawer .header_menu  a{text-decoration: none;}
+.magic-header .magic-header-drawer .logo{
+    height: 45px;
+    line-height: 45px;
+    vertical-align: middle;
+    text-align: left;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    padding-right: 40px;
+}
+.magic-header .magic-header-drawer .right-tools-group{float: right;height: 45px;line-height: 45px;vertical-align: middle;}
+.magic-header .magic-header-drawer .drawer-handle,.magic-header .magic-header-drawer .header_menu  a{
+    height: 45px;line-height: 45px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    float:right;
+    cursor: pointer;
+    vertical-align: middle;
+    padding: 0 18px;
+}
+.magic-header .magic-header-drawer .drawer-handle:hover{background: #111;}
+.magic-header .magic-header-drawer .drawer-handle.open{background: #fff;color: #333;}
+.magic-header .magic-header-drawer .header_menu  a:hover{background: #111;color: #fff;}
+
+/* ------------------------  drawer inner --------------- */
+.magic-header .magic-header-drawer #login_div{
+    margin: 50px 20% 20px 20%;
+    text-align: center;
+    overflow: visible;
+}
+.magic-header .magic-header-drawer #reg_div{
+    margin: 50px 20% 20px 20%;
+    text-align: center;
+}
+.magic-header .magic-header-drawer .big_logo{
+    margin: 30px auto 30px auto;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: bottom;
+    min-width: 200px;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing:5px;
+}
+
+.magic-header .magic-header-drawer .magic-input{
+    border: medium none;
+    height: 50px;
+    width: 400px;
+    text-indent: 30px;
+    background: #F3F3F3;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.magic-header .magic-header-drawer input:focus{background: #fff;}
+
+.magic-header .magic-header-drawer table{ margin:auto;}
+.magic-header .magic-header-drawer td{
+    text-align: left;
+    vertical-align: middle;
+    position: relative;
+}
+.magic-header .magic-header-drawer .reg_td{text-align: right;}
+.magic-header .magic-header-drawer td label input{margin-left: 0;}
+.magic-header .magic-header-drawer .bt{
+    border: medium none;
+    height: 30px;
+    width: 130px;
+    background: #fff;
+    color:#333;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.magic-header .magic-header-drawer .bt:hover{font-weight: bold;}
+.magic-header .magic-header-drawer .cursor_p{cursor: pointer;}
+
+/* close */
+.magic-header .magic-header-drawer .close_drawer{
+    width: 100px;float: right;height: 14px;
+    margin-top: 0;margin-right: -25%;
+    color: #fff;
+    border-left: 2px solid #F04C79;
+    line-height: 14px;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 5px;
+}
+
+/*  user agreement */
+.magic-header .magic-header-drawer .cb_clause_text .reg_clause:hover{text-decoration:underline;}
+.magic-header .magic-header-drawer .header_a{font-size: 14px;}
+.magic-header .magic-header-drawer .header_a a{text-decoration:none;color:#fff;}
+.magic-header .magic-header-drawer .header_a a:hover{color:#000;text-decoration:none;}
+.magic-header .magic-header-drawer .header_a a:focus {outline: thin dotted;color:#333;}
+
+.magic-header .magic-header-drawer .clause{display: inline-block}
+.magic-header .magic-header-drawer .cb_clause_div{
+    margin-top: -7px;
+    width: 14px;height: 14px; background: transparent;
+    border: 2px solid #fff;
+    line-height: 14px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+}
+.magic-header .magic-header-drawer .cb_clause_div.checked{background: rgba(255,255,255,0.5);color: #333;}
+.magic-header .magic-header-drawer .cb_clause_text{vertical-align: top; color:#fff;}
+
+/* lost password div */
+.magic-header .magic-header-drawer .lostPwd_div{
+    height: 14px;
+    border-left: 2px solid #333;
+    line-height: 14px;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
