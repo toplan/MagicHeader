@@ -1,7 +1,7 @@
 magic-header
 ============
 
-As the drawer open framework closed web page Header<br/>
+Can be like a drawer opening and closing of the Header template page!<br/>
 (可以像抽屉打开关闭的网页Header模板)<br/><br/>
 
 
