@@ -1,6 +1,8 @@
 magic-header
 ============
 
+该模板可以将一些网页内容（如登陆、注册等）放到Header抽屉里面，需要的时候再打开使用，这样即可以增加用户体验的流畅感，也可以使页面看起来简单干净不杂乱。 （在原有的html代码上复制代码即可新加抽屉，程序猿一看就会的）<br/>
+
 This is a page Header as drawer can be opened and closed.<br/>
 (可以像抽屉打开关闭的网页Header模板)<br/><br/>
 
