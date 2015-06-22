@@ -16,4 +16,4 @@ Based on the template you can modify and customize your own Header<br/>
 (你能在该模板基础上修改并定制出你自己的多功能Header)<br/><br/>
 
 DEMO:<br/>
-http://1.magicheader.sinaapp.com/
+[demo site](http://1.magicheader.sinaapp.com/)
